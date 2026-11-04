@@ -15,7 +15,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
 )
 
 type onboardingInput struct {

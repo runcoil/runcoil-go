@@ -13,9 +13,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/schedule"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/step"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/schedule"
+	"github.com/runcoil/runcoil-go/pkg/step"
 )
 
 type reportResult struct {

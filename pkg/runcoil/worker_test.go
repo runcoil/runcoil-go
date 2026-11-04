@@ -11,10 +11,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/schedule"
+	"github.com/runcoil/runcoil-go/pkg/step"
 	"github.com/stretchr/testify/require"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/schedule"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/step"
 )
 
 // A result that is being reported when the drain deadline passes is not cut

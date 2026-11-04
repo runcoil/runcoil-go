@@ -12,8 +12,8 @@ import (
 	"math"
 	"runtime/debug"
 
-	"github.com/tuanvumaihuynh/runcoil-go/internal/runstate"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/internal/runstate"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
 )
 
 // RetryPolicy is runcoil.RetryPolicy, so a handler file needs one import for a Step.

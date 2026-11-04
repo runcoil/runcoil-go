@@ -1,6 +1,6 @@
 # runcoil-go
 
-The Go SDK for [Runcoil](https://github.com/tuanvumaihuynh/runcoil), a
+The Go SDK for [Runcoil](https://github.com/runcoil/runcoil), a
 self-hosted server for background tasks. Run handlers in your application,
 record progress with Steps, and schedule recurring work in UTC.
 
@@ -12,7 +12,7 @@ runs workers and invokes Tasks.
 Requires Go 1.26 or newer. Until a version is tagged:
 
 ```sh
-go get github.com/tuanvumaihuynh/runcoil-go@main
+go get github.com/runcoil/runcoil-go@main
 ```
 
 ## Usage
@@ -87,7 +87,7 @@ set to `runcoil.RunFailed`, and `Failure` describing the failure, so check
 `Status` before you read `Output`.
 
 `GetRun`, `ListRuns`, and `Rerun` read Runs and rerun finished ones; see the
-[API reference](https://pkg.go.dev/github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil).
+[API reference](https://pkg.go.dev/github.com/runcoil/runcoil-go/pkg/runcoil).
 
 ## Start and shut down
 
@@ -129,11 +129,11 @@ walkthroughs:
 
 ## Documentation
 
-API reference: [runcoil](https://pkg.go.dev/github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil),
-[step](https://pkg.go.dev/github.com/tuanvumaihuynh/runcoil-go/pkg/step), and
-[schedule](https://pkg.go.dev/github.com/tuanvumaihuynh/runcoil-go/pkg/schedule).
+API reference: [runcoil](https://pkg.go.dev/github.com/runcoil/runcoil-go/pkg/runcoil),
+[step](https://pkg.go.dev/github.com/runcoil/runcoil-go/pkg/step), and
+[schedule](https://pkg.go.dev/github.com/runcoil/runcoil-go/pkg/schedule).
 
-See the [server repository](https://github.com/tuanvumaihuynh/runcoil) for server
+See the [server repository](https://github.com/runcoil/runcoil) for server
 setup and its API.
 
 ## Development

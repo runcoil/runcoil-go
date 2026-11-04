@@ -12,8 +12,8 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/step"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/step"
 )
 
 type helloInput struct {

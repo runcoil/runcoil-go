@@ -8,10 +8,10 @@ import (
 	"runtime/debug"
 	"sync"
 
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/tuanvumaihuynh/runcoil-go/internal/runstate"
+	"github.com/runcoil/runcoil-go/internal/runstate"
 )
 
 // errAttemptEnded is what callHandler returns when the server ended the attempt

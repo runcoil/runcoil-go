@@ -14,11 +14,11 @@ import (
 	"connectrpc.com/connect/v2/connecthttp"
 	"connectrpc.com/connect/v2/connectproto"
 	"github.com/google/uuid"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
+	"github.com/runcoil/runcoil-proto/gen/runcoil/v1/runcoilv1connect"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
-	"github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1/runcoilv1connect"
 )
 
 func TestNewClientValidatesOptions(t *testing.T) {

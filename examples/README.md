@@ -18,7 +18,7 @@ Commands below run from the repository root and require Go 1.26 or newer.
 
 ## Run it
 
-Start a [Runcoil server](https://github.com/tuanvumaihuynh/runcoil#quick-start),
+Start a [Runcoil server](https://github.com/runcoil/runcoil#quick-start),
 then run the worker from a checkout of this repository:
 
 ```sh
