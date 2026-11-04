@@ -22,8 +22,8 @@ import (
 	"connectrpc.com/connect/v2/connecthttp"
 	"connectrpc.com/connect/v2/connectproto"
 	"github.com/google/uuid"
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
-	"github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1/runcoilv1connect"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
+	"github.com/runcoil/runcoil-proto/gen/runcoil/v1/runcoilv1connect"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

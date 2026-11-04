@@ -6,11 +6,11 @@ import (
 	"testing"
 	"time"
 
+	"github.com/runcoil/runcoil-go/internal/runstate"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/schedule"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
 	"github.com/stretchr/testify/require"
-	"github.com/tuanvumaihuynh/runcoil-go/internal/runstate"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/schedule"
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 

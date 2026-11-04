@@ -11,11 +11,11 @@ import (
 	"time"
 
 	"connectrpc.com/connect/v2"
+	"github.com/runcoil/runcoil-go/internal/runstate"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/step"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
 	"github.com/stretchr/testify/require"
-	"github.com/tuanvumaihuynh/runcoil-go/internal/runstate"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/step"
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
 )
 
 // syncBuffer is a log destination that the worker's goroutines may share.

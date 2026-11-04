@@ -6,7 +6,7 @@ package schedule
 import (
 	"time"
 
-	"github.com/tuanvumaihuynh/runcoil-go/internal/schedspec"
+	"github.com/runcoil/runcoil-go/internal/schedspec"
 )
 
 // Schedule says when the server starts a Run of a Task. Build it with Cron,

@@ -63,6 +63,6 @@ formatters:
   settings:
     goimports:
       local-prefixes:
-        - github.com/tuanvumaihuynh/runcoil-go
+        - github.com/runcoil/runcoil-go
   exclusions:
     generated: disable

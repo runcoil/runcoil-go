@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
 	"google.golang.org/protobuf/types/known/durationpb"
 )
 

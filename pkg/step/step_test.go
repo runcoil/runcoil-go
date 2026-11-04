@@ -9,10 +9,10 @@ import (
 	"testing"
 	"time"
 
+	"github.com/runcoil/runcoil-go/internal/runstate"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	"github.com/runcoil/runcoil-go/pkg/step"
 	"github.com/stretchr/testify/require"
-	"github.com/tuanvumaihuynh/runcoil-go/internal/runstate"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/step"
 )
 
 func TestDoOutsideRunRunsFunctionOnce(t *testing.T) {

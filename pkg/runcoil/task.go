@@ -8,12 +8,12 @@ import (
 	"math"
 	"time"
 
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
 	"google.golang.org/protobuf/types/known/durationpb"
 
-	"github.com/tuanvumaihuynh/runcoil-go/internal/runstate"
-	"github.com/tuanvumaihuynh/runcoil-go/internal/schedspec"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/schedule"
+	"github.com/runcoil/runcoil-go/internal/runstate"
+	"github.com/runcoil/runcoil-go/internal/schedspec"
+	"github.com/runcoil/runcoil-go/pkg/schedule"
 )
 
 // TaskOption configures one Task in Worker.NewTask.

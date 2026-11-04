@@ -7,10 +7,10 @@ import (
 	"time"
 
 	"connectrpc.com/connect/v2"
+	"github.com/runcoil/runcoil-go/pkg/runcoil"
+	runcoilv1 "github.com/runcoil/runcoil-proto/gen/runcoil/v1"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"github.com/tuanvumaihuynh/runcoil-go/pkg/runcoil"
-	runcoilv1 "github.com/tuanvumaihuynh/runcoil-proto/gen/runcoil/v1"
 	"google.golang.org/protobuf/types/known/timestamppb"
 )
 
